@@ -13,6 +13,8 @@ import addToCart from "./components/addToCart/addToCart";
 import HeaderPopUp from "./components/header/viewHeader";
 import WomenCollection from "./components/collection/men collection/womenCollection";
 import OnlymenCollection from "./components/collection/men collection/onlymen";
+import ShippingCart from "./components/shippingCart/shippingCart";
+import information from "./components/shippingCart/information";
 
 export default function App() {
 
@@ -32,6 +34,8 @@ export default function App() {
         <Route path="/HeaderPopUp/:id" component={HeaderPopUp}></Route>
         <Route path="/womenCollection" component={WomenCollection}></Route>
         <Route path="/onlymenCollection" component={OnlymenCollection}></Route>
+        <Route path="/ShippingCart" component={ShippingCart}></Route>
+        <Route path="/information" component={information}></Route>
   
       </Main>
     </BrowserRouter>
